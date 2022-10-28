@@ -18,10 +18,11 @@
     }
 
 #navbar, #navbar a, #navbar ul {
-    background-color: #2C3E50;
+    background-color: #545454;
     color: #EAECEE; }
 
-#navebar:hover {
-    background-color: #2C3E50;
-    color: #EAECEE; }
+#navbar a:hover {
+    background-color: #EAECEE;
+    color: #545454;
+    border-radius: 5px;}
 
