@@ -17,6 +17,10 @@
     display: block;
     }
 
+#nav-btn{
+    color: #EAECEE;
+}
+
 #navbar, #navbar a, #navbar ul {
     background-color: #545454;
     color: #EAECEE; }
@@ -25,4 +29,12 @@
     background-color: #EAECEE;
     color: #545454;
     border-radius: 5px;}
+
+.text{
+    color: #EAECEE;
+    position:absolute;
+    z-index: 12;
+    
+    text-align:center;
+}
 
