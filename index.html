@@ -1,270 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Home</title>
+    <link rel="stylesheet" href="/asset/style.css">
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="asset/style.css">
-    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-  <!--logo container start -->
-  <div class="container-fluid">
-    <div class="row text-center">
-        <div class="logo">
-          <img src="asset/images/logo.png" alt="logo">
-        </div>
+  <body>
+    <!--logo container start -->
+    <div class="container-fluid">
+      <div class="row text-center">
+          <div class="logo">
+            <img src="asset/images/logo.png" alt="logo">
+          </div>
+      </div>
     </div>
-  </div>
-  <!--logo container end -->
+    <!--logo container end -->
 
-<!-- Navbar starts-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--navbar start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container-fluid">
-      <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#navbarExampleOnHover" aria-controls="navbarExampleOnHover" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="main_nav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
 
-      <div class="collapse navbar-collapse" id="navbarExampleOnHover">
-       
-        <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Regular link</a>
-          </li>
-          
-          <li class="nav-item dropdown dropdown-hover position-static">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
-              Mega menu
-            </a>
-            <!-- Dropdown menu -->
-            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
-                              border-top-right-radius: 0;
-                            ">
-  
-              <div class="container">
-                <div class="row my-4">
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="list-group list-group-flush">
-                      <a href="" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                      <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
-                      <a href="" class="list-group-item list-group-item-action">Amet consectetur</a>
-                      <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" class="list-group-item list-group-item-action">Adipisicing elit</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="list-group list-group-flush">
-                      <a href="" class="list-group-item list-group-item-action">Explicabo voluptas</a>
-                      <a href="" class="list-group-item list-group-item-action">Perspiciatis quo</a>
-                      <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" class="list-group-item list-group-item-action">Laudantium maiores</a>
-                      <a href="" class="list-group-item list-group-item-action">Provident dolor</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-                    <div class="list-group list-group-flush">
-                      <a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
-                      <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" class="list-group-item list-group-item-action">Est iure</a>
-                      <a href="" class="list-group-item list-group-item-action">Praesentium</a>
-                      <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3">
-                    <div class="list-group list-group-flush">
-                      <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" class="list-group-item list-group-item-action">Saepe</a>
-                      <a href="" class="list-group-item list-group-item-action">Vel alias</a>
-                      <a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
-                      <a href="" class="list-group-item list-group-item-action">Cum dolores</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        
-      </div>
-
-    </div>
-   
-  </nav>
-<!-- Navbar ends-->
-
-<!-- Footer starts-->
-<footer class="bg-light text-center fixed-bottom">
- 
-  <div class="container pt-3 pb-0">
-  
-    <section class="">
-      <form action="">
-        
-        <div class="row d-flex justify-content-center">
-        
-          <div class="col-auto">
-            <p class="">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-         
-          <div class="col-md-5 col-12">
-          
-            <div class="form-outline mb-2">
-              <input type="email" id="form5Example27" class="form-control" placeholder="Email address" />
-              
-            </div>
-          </div>
-                          <div class="col-auto">
-                      <button type="submit" class="btn btn-primary mb-2">
-              Subscribe
-            </button>
-          </div>
-                 </div>
-             </form>
-    </section>
-     </div>
-
-    
-      <div class="container ">
-        <!-- Section: Social media -->
-        <section class="">
-          <!-- Facebook -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-    
-          <!-- Twitter -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-twitter"></i
-          ></a>
-    
-          <!-- Google -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-google"></i
-          ></a>
-    
-          <!-- Instagram -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-instagram"></i
-          ></a>
-    
-          <!-- Linkedin -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <!-- Github -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-github"></i
-          ></a>
-        </section>
-      
-      </div>
-      
-      <section class="">
-        <!-- Footer -->
-        <footer class="bg-secondary text-white text-center text-md-start">
-          <!-- Grid container -->
-          <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer Content</h5>
-      
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
-                <ul class="list-unstyled mb-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Collection  </a>
+          <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Shop by Type
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a class="dropdown-item" href="#">Men</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 2</a>
+                    <a class="dropdown-item" href="#">Women</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 3</a>
+                    <a class="dropdown-item" href="#">Kids</a>
+                  </li>
+              </li>
+          </ul>
+
+            <li>
+              <a class="dropdown-item" href="#">
+                Shop by Style
+              </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="#">Luxury</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 4</a>
+                    <a class="dropdown-item" href="#">Vintage</a>
                   </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Casual</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dress</a>
+                  </li>
+            </li>
                 </ul>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Links</h5>
-      
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="text-white">Link 1</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </div>
-          <!-- Grid container -->
-      
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
-      </section>
-    </footer>
+        </li> 
+      </ul>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Brands  </a>
+          <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Rolex </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                Cartier </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Apple </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Omega </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Citizen </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Hamilton </a>
+              </li>
+          </ul>
 
-</body>
-   
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        
+      </div> <!-- navbar-collapse.// -->
+      </div> <!-- container-fluid.// -->
+    </nav>
+    <!--navbar end -->
+
+  </body>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asset/script.js"></script>
 </html>

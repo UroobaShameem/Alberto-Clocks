@@ -1,8 +1,27 @@
-.dropdown-hover:hover>.dropdown-menu {
-    display: inline-block;
+*{
+    font-family: 'Bitter', serif;}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
     }
-    
-    .dropdown-hover>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-    pointer-events: none;
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
     }
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+#navbar, #navbar a, #navbar ul {
+    background-color: #2C3E50;
+    color: #EAECEE; }
+
+#navebar:hover {
+    background-color: #2C3E50;
+    color: #EAECEE; }
+
