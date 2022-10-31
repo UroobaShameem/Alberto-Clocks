@@ -58,12 +58,17 @@ body{
     .contact-info{
     margin-top:10%;
     }
-    .contact-info i{
-    margin-bottom: 15%;
+    .main-cont{
+    margin-bottom: 8%;
     }
     .contact-info h2{
     margin-bottom: 10%;
     }
+    .detail{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    }
+    
     .col-md-9{
     background: #fff;
     padding: 3%;
