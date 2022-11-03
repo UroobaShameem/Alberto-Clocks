@@ -117,8 +117,8 @@
             <h5 class="card-title text-center" id="name">QUARTZ MEN</h5>
             <h6 class="text-center h4">$25,990</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
             </div>
           </div>
         </div>
@@ -130,8 +130,9 @@
             <h5 class="card-title text-center" id="name">CHRONOGRAPH STANDARD</h5>
             <h6 class="text-center h4">$24,480</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+            
             </div>
           </div>
         </div>
@@ -144,8 +145,8 @@
             <h5 class="card-title text-center" id="name">MECHANICAL MEN</h5>
             <h6 class="text-center h4">$30,660</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
             </div>
           </div>
         </div>
@@ -160,8 +161,8 @@
             <h5 class="card-title text-center" id="name">L WOMEN</h5>
             <h6 class="text-center h4">$16,850</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
             </div>
           </div>
         </div>
@@ -173,8 +174,8 @@
             <h5 class="card-title text-center" id="name">ECO DRIVEN WOMEN</h5>
             <h6 class="text-center h4">$22,876</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
             </div>
           </div>
         </div>
@@ -187,8 +188,8 @@
             <h5 class="card-title text-center" id="name">QUARTZ WOMEN</h5>
             <h6 class="text-center h4">$19,900</h6>
             <div class="text-center d-flex justify-content-center">
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
-                <a href="#"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#cart"><div class="p-2 h3 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="p-2 h3 icon"><i class="fa-solid fa-circle-info"></i></div></a>
             </div>
             </div>
           </div>
@@ -197,6 +198,22 @@
     </div>
     </div>
     <!--products end-->
+
+      <!-- Cart Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" aria-labelledby="cartLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <h5 class="modal-title text-center" id="cartLabel">Added to Cart</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" id="cart-btn" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn" id="cart-btn">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cart model ends-->
 
         <!--Footer starts-->
     <footer class=" text-center text-white" id="navbar">
