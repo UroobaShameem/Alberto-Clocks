@@ -87,3 +87,12 @@
     box-shadow:none;
     }
 
+/* PRODUCT */
+.card-img-top{
+    height: 25vw;
+}
+
+#name{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
