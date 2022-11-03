@@ -96,3 +96,16 @@
     font-size: 1.6rem;
     font-weight: 600;
 }
+.icon {
+    margin: 0.5rem;
+    color:#242424;
+}
+.icon:link, .icon:visited{
+    color: #242424;
+    text-decoration: none;
+}
+.icon:hover {
+    color: #EAECEE;
+    background-color: #242424;
+    border-radius: 5px;
+}
