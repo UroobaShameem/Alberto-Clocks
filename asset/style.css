@@ -1,6 +1,10 @@
 *{
     font-family: 'Noto Sans Warang Citi', sans-serif;}
 
+#main_nav{
+    font-size: 1.4rem;
+}
+
 .dropdown-menu .dropdown-submenu {
     display: none;
     position: absolute;
