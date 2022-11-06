@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Women</title>
+    <title>Couple</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
@@ -117,6 +117,9 @@
                 <div class="card-body text-center">
                   <h5 class="card-title"><b>PLANET OCEAN 600M</b></h5>
                   <p class="card-text h5">For Him</p>
+                  <div class="text-center d-flex justify-content-center">
+                    <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -127,6 +130,9 @@
                 <div class="card-body text-center">
                   <h5 class="card-title"><b>PLANET OCEAN 600M</b></h5>
                   <p class="card-text h5">For Her</p>
+                  <div class="text-center d-flex justify-content-center">
+                    <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -137,6 +143,9 @@
                 <div class="card-body text-center">
                   <h5 class="card-title"><b>PRESTIGE</b></h5>
                   <p class="card-text h5">For Him</p>
+                  <div class="text-center d-flex justify-content-center">
+                    <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -146,10 +155,56 @@
                 <div class="card-body text-center">
                   <h5 class="card-title"><b>PRESTIGE</b></h5>
                   <p class="card-text h5">For Her</p>
+                  <div class="text-center d-flex justify-content-center">
+                    <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                  </div>
                 </div>
               </div>
             </div>
         </div>
+
+        <div class="row row-cols-lg-3 row-cols-md-2 my-4 d-flex justify-content-center">
+          <div class="col">
+            <div class="card">
+              <img src="images/couple/3.jpg" class="card-img-top">
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>ICONIC LINK EMERALD +<br> QUADRO PRESSED MELROSE</b></h5>
+                <div class="text-center d-flex justify-content-center">
+                  <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="images/couple/4.jpg" class="card-img-top">
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>CLASSIC ST MAWES +<br> PETITE UNITONE</b></h5>
+                <div class="text-center d-flex justify-content-center">
+                  <a data-bs-toggle="modal" data-bs-target="#cart"><div class="h2 icon"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" aria-labelledby="cartLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <h5 class="modal-title text-center" id="cartLabel">Added to Cart</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" id="cart-btn" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn" id="cart-btn" data-bs-dismiss="modal">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cart model ends-->
+  
         </div>
         <!--products end-->
 
