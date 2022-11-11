@@ -42,6 +42,14 @@
     text-align:center;
 }
 
+#coll h5 {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 512px) {
+    #coll h5 {margin-top: 0px;}
+    #coll button {margin-top: 0px;}
+}
 /* about */
 #box{
     height: 100%;
